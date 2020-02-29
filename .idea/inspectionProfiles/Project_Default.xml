@@ -32,5 +32,16 @@
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
       <option name="myAdditionalJavadocTags" value="date" />
     </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="server" />
+            <item index="1" class="java.lang.String" itemvalue="client" />
+            <item index="2" class="java.lang.String" itemvalue="goc1" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
   </profile>
 </component>

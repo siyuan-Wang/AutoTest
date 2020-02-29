@@ -1,0 +1,4 @@
+/myautoTest/target/*
+/myautoTest/target/classes/com/myautotest/PayTest.class
+/myautoTest/target/classes/com/myautotest/SuiteConfig.class
+/myautoTest/target/classes/testng.xml

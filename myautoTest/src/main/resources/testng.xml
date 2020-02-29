@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.myautotest.SuiteConfig"></class>
+            <class name="com.myautotest.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.myautotest.SuiteConfig"></class>
+            <class name="com.myautotest.PayTest"></class>
+        </classes>
+    </test>
+</suite>

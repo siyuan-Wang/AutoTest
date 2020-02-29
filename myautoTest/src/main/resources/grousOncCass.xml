@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="runall">
+    <test name="runall">
+        <classes>
+            <class name ="com.myautotest.group.GroupsOnClass1"></class>
+            <class name ="com.myautotest.group.GroupsOnClass2"></class>
+            <class name ="com.myautotest.group.GroupsOnClass3"></class>
+        </classes>
+    </test>
+
+    <test name="runastu">
+        <groups>
+            <run>
+                <include name="stu">
+                </include>
+            </run>
+        </groups>
+    <classes>
+        <class name ="com.myautotest.group.GroupsOnClass1"></class>
+        <class name ="com.myautotest.group.GroupsOnClass2"></class>
+        <class name ="com.myautotest.group.GroupsOnClass3"></class>
+    </classes>
+</test>
+</suite>

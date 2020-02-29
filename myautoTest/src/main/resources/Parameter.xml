@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="para">
+    <test name="pa">
+        <classes>
+            <parameter  name="name" value="zhangsan"/>
+            <parameter name="age" value="12"/>
+
+            <class name="com.myautotest.parameter.ParameterTest"></class>
+        </classes>
+    </test>
+</suite>
