@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--
+    tests级别：
+    相同的test tag下的用例只能在同一个线程下执行
+    不同的test tag可以在不同的线程下执行
+    method 级别：
+     所有方法都可以在不同的线程下执行
+
+     class 级别：
+         相同的class下的用例在同一个线程中执行
+         不同的class在不同的线程中运行
+-->
+<suite name="thread" parallel="classes" thread-count="5">
+    <test name="thread">
+        <classes >
+            <class name ="com.myautotest.multiThread.MultiThreadOnXml"></class>
+            <class name ="com.myautotest.multiThread.MultiThreadOnXml2"></class>
+        </classes>
+    </test>
+    <test name="thread2">
+        <classes >
+            <class name ="com.myautotest.multiThread.MultiThreadOnXml2"></class>
+        </classes>
+    </test>
+
+
+    <listeners>
+       <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.myautotest.reportlistener.ExtentTestNGIReporterListener"/>
+
+    </listeners>
+
+</suite>

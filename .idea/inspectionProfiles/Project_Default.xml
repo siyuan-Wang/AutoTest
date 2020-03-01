@@ -35,10 +35,11 @@
     <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="groups">
         <value>
-          <list size="3">
+          <list size="4">
             <item index="0" class="java.lang.String" itemvalue="server" />
             <item index="1" class="java.lang.String" itemvalue="client" />
             <item index="2" class="java.lang.String" itemvalue="goc1" />
+            <item index="3" class="java.lang.String" itemvalue="stu" />
           </list>
         </value>
       </option>
